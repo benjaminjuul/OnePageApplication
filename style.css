@@ -1,0 +1,81 @@
+body{
+    background: #fff;
+    font-family: 'Open Sans', sans-serif !important;
+  }
+  .container{
+    max-width: 400px;
+  }
+  input[type=text],
+  input[type=text]:focus{
+    color: #000;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    max-width: 400px;
+  }
+  .todos li{
+    background: #423a6f;
+  }
+  .delete{
+    cursor: pointer;
+  }
+  h1 {
+    color: #000;
+  }
+  .quiz-container {
+    display: none;
+  }
+
+  .filtered {
+    display: none !important;
+  }
+  .far {
+    color: #fff;
+  }
+  span {
+    color: #fff;
+  }
+  .container { 
+  box-shadow: 0 0 22px rgb(0 0 0 / 15%);
+  }
+
+  .form-control {
+    background-color: transparent !important;
+    box-shadow: 0 0 22px rgb(0 0 0 / 15%) !important;
+  }
+  label.text-light {
+    color: #000 !important;
+  }
+  h1.mb-4 {
+    display: block !important;
+    background: #423a6f !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-size: 30px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold !important;
+
+  }
+
+  .switch {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .btn-quiz, .btn-todos {
+    background: #423a6f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 22px rgb(0 0 0 / 15%) !important;
+    text-transform: uppercase;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .quiz.py-4.bg-primary {
+    background: #423a6f !important;
+}
+
+h2.text-primary.display-3.my-4 {
+  color: #000 !important;
+}
